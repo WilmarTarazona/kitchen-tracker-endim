@@ -1,30 +1,52 @@
 # Kitchen Tracker
-Staff pose detection using YOLO and Python, connecting to real time cameras via RTSP protocols on LAN network
+
+Staff pose detection using YOLO and Python, connecting to real-time cameras via RTSP protocols on a LAN network.
+
 ## Setup
-```shell script
-git clone
+
+First, clone the repository and navigate to the project directory:
+
+```shell
+git clone <repository-url>
 cd kitchen-tracker-endim
 ```
-## Install libraries
-```shell script
-pip install requirements.txt
+
+## Install Dependencies
+
+Install the required Python libraries:
+
+```shell
+pip install -r requirements.txt
 ```
-## Run the app
-> Note: Change LAN credentials to own for use of RTSP protocol livestreaming cameras or change via GUI
-```shell script
+
+## Run the Application
+
+Before running the application, ensure to update your LAN credentials for RTSP protocol live streaming cameras. You can also change these settings via the GUI.
+
+```shell
 python main.py
 ```
-<table>
-    <tr>
-        <p>Initial phase of development focusing on AI features to verify eligibility of pose estimation from angles of the cameras</p>
-        <img src="images/Phase 1.jpg" width="600"/>
-    </tr>
-    <tr>
-        <p>Development of Python GUI using PyQt, implementing dark and light theme. Adding components for functionality of app</p>
-        <img src="images/Phase 2.jpg" width="600"/>
-    </tr>
-    <tr>
-        <p>Integration of previous development stages</p>
-        <img src="images/Phase 3.jpg" width="600"/>
-    </tr>
-</table>
+
+## Development Phases
+
+### Phase 1: Initial Development
+Focus on AI features to verify the eligibility of pose estimation from various camera angles.
+
+![Phase 1](images/Phase 1.jpg)
+
+### Phase 2: GUI Development
+Development of a Python GUI using PyQt, with both dark and light themes. Adding components for enhanced app functionality.
+
+![Phase 2](images/Phase 2.jpg)
+
+### Phase 3: Integration
+Integrating the previous development stages into a cohesive application.
+
+![Phase 3](images/Phase 3.jpg)
+
+## Features
+
+- Real-time pose detection using YOLO
+- Connects to cameras via RTSP protocols on a LAN network
+- User-friendly GUI with theme options
+- Customizable LAN credentials
