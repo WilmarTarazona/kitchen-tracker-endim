@@ -32,17 +32,17 @@ python main.py
 ### Phase 1: Initial Development
 Focus on AI features to verify the eligibility of pose estimation from various camera angles.
 
-![Phase 1](images/Phase 1.jpg)
+![Phase 1](images/Phase%201.jpg)
 
 ### Phase 2: GUI Development
 Development of a Python GUI using PyQt, with both dark and light themes. Adding components for enhanced app functionality.
 
-![Phase 2](images/Phase 2.jpg)
+![Phase 2](images/Phase%202.jpg)
 
 ### Phase 3: Integration
 Integrating the previous development stages into a cohesive application.
 
-![Phase 3](images/Phase 3.jpg)
+![Phase 3](images/Phase%203.jpg)
 
 ## Features
 
